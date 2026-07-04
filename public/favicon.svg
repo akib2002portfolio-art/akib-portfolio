@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#12141a"/>
+      <stop offset="1" stop-color="#05060a"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="10" y1="50" x2="54" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2dd4ee"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- Bold geometric "A" monogram, thick strokes for legibility at 16px -->
+  <path d="M32 9
+           L52 48
+           L41.5 48
+           L37.9 40.4
+           L26.1 40.4
+           L22.5 48
+           L12 48
+           Z
+           M32 24.2
+           L28.3 33.4
+           L35.7 33.4
+           Z"
+        fill="url(#mark)" fill-rule="evenodd"/>
+</svg>
